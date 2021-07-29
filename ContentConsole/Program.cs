@@ -17,19 +17,19 @@ namespace ContentConsole
             int badWords = 0;
             if (content.Contains(bannedWord1))
             {
-                badWords = badWords + 1;
+                badWords++;
             }
             if (content.Contains(bannedWord2))
             {
-                badWords = badWords + 1;
+                badWords++;
             }
             if (content.Contains(bannedWord3))
             {
-                badWords = badWords + 1;
+                badWords++;
             }
             if (content.Contains(bannedWord4))
             {
-                badWords = badWords + 1;
+                badWords++;
             }
 
             Console.WriteLine("Scanned the text:");
